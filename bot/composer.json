@@ -1,0 +1,13 @@
+{
+    "name": "samuelfajreldines/linkedin-bot",
+    "description": "A robot for automated actions on LinkedIN",
+    "require": {
+        "facebook/webdriver": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Samuel Faj",
+            "email": "samuelfaj@icloud.com"
+        }
+    ]
+}
