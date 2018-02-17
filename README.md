@@ -33,7 +33,7 @@ Clone this repository
 git clone https://github.com/samuelfaj/LinkedInBot.git
 ```
 
-Edit the file LinkedInBot.php as you want to configure and execute
+Edit the LinkedInBot.php configuration file as you want and execute
 
 ```
 php LinkedInBot.php
