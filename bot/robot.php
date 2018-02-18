@@ -167,6 +167,9 @@ class LinkedInBot{
                 if(!$this->autoInvite) return false;
 
                 do{
+                    $elements =  $this->driver->findElements(WebDriverBy::cssSelector('button.artdeco-dismiss'));
+                    if(count($elements) > 0) $this->driver->executeScript("$('button.artdeco-dismiss').click();",array());
+
                     $elements =  $this->driver->findElements(WebDriverBy::cssSelector('.mn-pymk-list__card'));
                     foreach ($elements as $i=>$element){
                         if($this->invites > $this->maxNewConnections) continue;
